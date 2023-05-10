@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">MY_Timetable</string>
+    <string name="choose_a_day">Choose a day</string>
+    <string name="choose_aday">CHOOSE A DAY</string>
+</resources>
