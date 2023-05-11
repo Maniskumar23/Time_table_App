@@ -12,6 +12,24 @@
         android:theme="@style/Theme.MY_Timetable"
         tools:targetApi="31">
         <activity
+            android:name=".MainActivity_sat"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity_fri"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity_thu"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity_wed"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivitytue"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity2"
+            android:exported="false" />
+        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
