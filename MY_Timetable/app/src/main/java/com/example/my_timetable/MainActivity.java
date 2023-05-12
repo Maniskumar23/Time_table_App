@@ -1,13 +1,12 @@
 package com.example.my_timetable;
 
-import androidx.appcompat.app.AppCompatActivity;
-
 import android.annotation.SuppressLint;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.ImageButton;
-import android.widget.ImageView;
+
+import androidx.appcompat.app.AppCompatActivity;
 
 public class MainActivity extends AppCompatActivity {
     ImageButton monImageButton;
@@ -34,7 +33,7 @@ public class MainActivity extends AppCompatActivity {
         monImageButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intentLoadNewActivity=new Intent(MainActivity.this, MainActivity_mon.class);
+                Intent intentLoadNewActivity=new Intent(MainActivity.this, MainActivity2.class);
                 startActivity(intentLoadNewActivity);
             }
         });
