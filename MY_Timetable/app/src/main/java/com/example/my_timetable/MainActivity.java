@@ -40,7 +40,7 @@ public class MainActivity extends AppCompatActivity {
         tueImageButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intentLoadNewActivity=new Intent(MainActivity.this, MainActivitytue.class);
+                Intent intentLoadNewActivity=new Intent(MainActivity.this, MainActivity_tue.class);
                 startActivity(intentLoadNewActivity);
             }
         });

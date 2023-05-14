@@ -12,6 +12,15 @@
         android:theme="@style/Theme.MY_Timetable"
         tools:targetApi="31">
         <activity
+            android:name=".MainActivity_bz_wed"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity_by_wed"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity_bx_wed"
+            android:exported="false" />
+        <activity
             android:name=".MainActivity_bz_tue"
             android:exported="false" />
         <activity

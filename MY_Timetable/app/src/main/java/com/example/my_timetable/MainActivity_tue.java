@@ -7,7 +7,7 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.ImageButton;
 
-public class MainActivitytue extends AppCompatActivity {
+public class MainActivity_tue extends AppCompatActivity {
 
     ImageButton monImageButton;
     ImageButton tueImageButton;
@@ -25,14 +25,14 @@ public class MainActivitytue extends AppCompatActivity {
         monImageButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intentLoadNewActivity=new Intent(MainActivitytue.this, MainActivity_bx_tue.class);
+                Intent intentLoadNewActivity=new Intent(MainActivity_tue.this, MainActivity_bx_tue.class);
                 startActivity(intentLoadNewActivity);
             }
         });
         tueImageButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intentLoadNewActivity=new Intent(MainActivitytue.this, MainActivity_by_tue.class);
+                Intent intentLoadNewActivity=new Intent(MainActivity_tue.this, MainActivity_by_tue.class);
                 startActivity(intentLoadNewActivity);
             }
         });
@@ -40,7 +40,7 @@ public class MainActivitytue extends AppCompatActivity {
         wedImageButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intentLoadNewActivity=new Intent(MainActivitytue.this, MainActivity_bz_tue.class);
+                Intent intentLoadNewActivity=new Intent(MainActivity_tue.this, MainActivity_bz_tue.class);
                 startActivity(intentLoadNewActivity);
             }
         });
