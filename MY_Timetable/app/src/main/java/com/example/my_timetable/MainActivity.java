@@ -26,9 +26,9 @@ public class MainActivity extends AppCompatActivity {
         monImageButton=(ImageButton)findViewById(R.id.mon);
         tueImageButton=(ImageButton)findViewById(R.id.tue);
         wedImageButton=(ImageButton)findViewById(R.id.wed);
-        thuImageButton=(ImageButton)findViewById(R.id.thu);
-        friImageButton=(ImageButton)findViewById(R.id.fri);
-        satImageButton=(ImageButton)findViewById(R.id.sat);
+        thuImageButton=(ImageButton)findViewById(R.id.fing);
+        friImageButton=(ImageButton)findViewById(R.id.juet);
+        satImageButton=(ImageButton)findViewById(R.id.bx);
 
         monImageButton.setOnClickListener(new View.OnClickListener() {
             @Override

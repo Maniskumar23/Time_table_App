@@ -12,10 +12,23 @@
         android:theme="@style/Theme.MY_Timetable"
         tools:targetApi="31">
         <activity
+            android:name=".MainActivity_bz_tue"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity_by_tue"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity_bx_tue"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity_bz_mon"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity_by_mon"
+            android:exported="false" />
+        <activity
             android:name=".MainActivity_bx_mon"
-            android:exported="false"
-            android:label="@string/title_activity_main_bx_mon"
-            android:theme="@style/Theme.MY_Timetable" />
+            android:exported="false" />
         <activity
             android:name=".MainActivity_sat"
             android:exported="false" />

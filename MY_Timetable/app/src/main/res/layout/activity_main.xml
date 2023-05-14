@@ -10,13 +10,14 @@
         <ScrollView
             android:layout_width="409dp"
             android:layout_height="729dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
             tools:ignore="MissingConstraints,SpeakableTextPresentCheck"
-            tools:layout_editor_absoluteX="1dp"
-            tools:layout_editor_absoluteY="1dp">
+            tools:layout_editor_absoluteX="1dp">
 
                 <LinearLayout
                     android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
+                    android:layout_height="match_parent"
                     android:background="#D5D6D6"
                     android:orientation="vertical">
 
@@ -51,22 +52,23 @@
                             app:srcCompat="@drawable/wed" />
 
                         <ImageButton
-                            android:id="@+id/thu"
+                            android:id="@+id/fing"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:contentDescription="@string/app_name"
                             app:srcCompat="@drawable/thu" />
 
                         <ImageButton
-                            android:id="@+id/fri"
+                            android:id="@+id/juet"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             app:srcCompat="@drawable/fri" />
 
                         <ImageButton
-                            android:id="@+id/sat"
+                            android:id="@+id/bx"
                             android:layout_width="match_parent"
-                            android:layout_height="wrap_content"
+                            android:layout_height="272dp"
+                            android:contentDescription="@string/app_name"
                             app:srcCompat="@drawable/sat" />
                 </LinearLayout>
         </ScrollView>
