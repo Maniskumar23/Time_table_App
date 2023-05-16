@@ -32,7 +32,7 @@
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/juet_trans1" />
 
-    <ImageView
+    <ImageButton
         android:id="@+id/bx"
         android:layout_width="77dp"
         android:layout_height="84dp"
@@ -47,7 +47,7 @@
         app:layout_constraintVertical_bias="0.535"
         app:srcCompat="@drawable/bx" />
 
-    <ImageView
+    <ImageButton
         android:id="@+id/by"
         android:layout_width="61dp"
         android:layout_height="85dp"
@@ -61,7 +61,7 @@
         app:layout_constraintVertical_bias="0.461"
         app:srcCompat="@drawable/by" />
 
-    <ImageView
+    <ImageButton
         android:id="@+id/bz"
         android:layout_width="46dp"
         android:layout_height="158dp"

@@ -12,6 +12,24 @@
         android:theme="@style/Theme.MY_Timetable"
         tools:targetApi="31">
         <activity
+            android:name=".MainActivity_bz_fri"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity_by_fri"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity_bx_fri"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity_bz_thu"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity_by_thu"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity_bx_thu"
+            android:exported="false" />
+        <activity
             android:name=".MainActivity_bz_wed"
             android:exported="false" />
         <activity
@@ -51,7 +69,7 @@
             android:name=".MainActivity_wed"
             android:exported="false" />
         <activity
-            android:name=".MainActivitytue"
+            android:name=".MainActivity_tue"
             android:exported="false" />
         <activity
             android:name=".MainActivity2"

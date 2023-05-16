@@ -52,20 +52,20 @@
                             app:srcCompat="@drawable/wed" />
 
                         <ImageButton
-                            android:id="@+id/fing"
+                            android:id="@+id/thu"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:contentDescription="@string/app_name"
                             app:srcCompat="@drawable/thu" />
 
                         <ImageButton
-                            android:id="@+id/juet"
+                            android:id="@+id/fri"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             app:srcCompat="@drawable/fri" />
 
                         <ImageButton
-                            android:id="@+id/bx"
+                            android:id="@+id/sat"
                             android:layout_width="match_parent"
                             android:layout_height="272dp"
                             android:contentDescription="@string/app_name"

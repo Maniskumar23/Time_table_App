@@ -4,17 +4,15 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity_bz_wed">
+    tools:context=".MainActivity_by_thu">
 
     <ImageView
-        android:id="@+id/imageView10"
+        android:id="@+id/imageView12"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:background="#146058"
-        android:backgroundTint="#2A978F"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/bz_wednesday" />
+        app:srcCompat="@drawable/by_thursday" />
 </androidx.constraintlayout.widget.ConstraintLayout>
