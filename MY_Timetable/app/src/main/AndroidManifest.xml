@@ -12,6 +12,15 @@
         android:theme="@style/Theme.MY_Timetable"
         tools:targetApi="31">
         <activity
+            android:name=".MainActivity_bz_sat"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity_by_sat"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity_bx_sat"
+            android:exported="false" />
+        <activity
             android:name=".MainActivity_bz_fri"
             android:exported="false" />
         <activity
